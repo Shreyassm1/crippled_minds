@@ -7,7 +7,8 @@ const projectSchema = mongoose.Schema({
     projectDesc : {
         type : String,
     },
-
+    projectLink : {
+        type : String,
 });
 
 const Project = mongoose.model('Project',projectSchema);
