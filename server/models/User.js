@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-
+const Skills = require("/Skills");
+const Experience = require("/Experience");
 const userSchema = mongoose.Schema({
 
     firstName : {
@@ -22,10 +23,12 @@ const userSchema = mongoose.Schema({
         type : String,
     },
     skills : {
-        type : String,
+        type : mongoose.Schema.Types.ObjectId,
+        ref : 'Skills',
     },
     workExperience : {
-        type : String,
+        type : mongoose.Schema.Types.ObjectId,
+        ref : 'Experience',
     },
     profilePicture : {
         type : mongoose.Schema.Types.ObjectId,
