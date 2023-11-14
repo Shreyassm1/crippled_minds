@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const articleSchema = mongoose.Schema({
+const contentSchema = mongoose.Schema({
     
     topic : {
         type : String,
@@ -26,6 +26,6 @@ const articleSchema = mongoose.Schema({
 
 });
 
-const Article = mongoose.model("Article", articleSchema);
+const Content = mongoose.model("Content", contentSchema);
 
-module.exports = Article;
+module.exports = Content;
