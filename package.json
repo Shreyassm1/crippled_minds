@@ -1,5 +1,5 @@
 {
-  "name": "beepbop",
+  "name": "beebop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,16 +11,31 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "babel-plugin-macros": "^3.1.0",
+=======
+    "axios": "^1.6.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+>>>>>>> f8ce364120d73b59d660b4ea873e3c4d938b404e
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.18.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
+    "dev-server": "react-scripts start --port=4000",
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-server\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,5 +56,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.17.10",
+    "@types/passport": "^1.0.15"
   }
 }
