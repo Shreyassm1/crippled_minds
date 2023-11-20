@@ -17,7 +17,7 @@ app.use(cors());
 app.use(session({ secret: 'fstiwrhsb', resave: false, saveUninitialized: false }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use('/mnnitchessclub', auth);
+app.use('/register', auth);
 
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
