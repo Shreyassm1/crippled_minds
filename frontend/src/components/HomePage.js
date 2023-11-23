@@ -11,7 +11,7 @@ const HomePage = () => {
       try {
         const token = localStorage.getItem('token');
         setAuthToken(token);
-        const response = await axios.get('http://localhost:8000/mnnitchessclub/home');
+        const response = await axios.get('http://localhost:8000/home');
         setUserData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -66,7 +66,7 @@ const HomePage = () => {
     //   </div>
     // </div>
     <div className='test'>
-        <h1>Welcome to MNNIT Chess Club</h1>
+        <h1>Welcome to l</h1>
         {userData.message && <p>{userData.message}</p>}
         {userData.email && <p>Email: {userData.email}</p>}
     </div>
