@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/login" element={isAuthenticated(<LoginPage />)} />
+        <Route path="/login" element={<LoginPage />} />
         {/* Other routes */}
       </Routes>
     </Router>
