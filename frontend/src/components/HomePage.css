@@ -1,0 +1,37 @@
+.body {
+  background-color: #EDF3F8;
+  width: 100vw;
+  height: 85vh;
+}
+.header {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+}
+.search-bar{
+  width: 50vw;
+}
+.search-bar input{
+  width: 20vw;
+  height: 5vh;
+  margin: 1vw;
+  border-radius: 5px;
+  background-color: #EDF3F8;
+  padding-left: 5px;
+}
+.nav-bar{
+  width: 50vw;
+}
+.nav-bar ul{
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+  margin: 1vw;
+}
+li{
+  text-align: center;
+}
+.item {
+  font-size: 12px;
+}
