@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 function authenticateUser(req, res, next) {
   const token = req.headers.authorization;
   console.log('Token:', token);
-  const excludedRoutes = ['/mnnitchessclub/register', '/mnnitchessclub/login'];
+  const excludedRoutes = ['/register', '/login'];
   if (excludedRoutes.includes(req.path)) {
     return next();
   }
