@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const isAuthenticated = require("../middleware/isAuthenticated");
 const jwt = require('jsonwebtoken');
 
-router.post('/mnnitchessclub/register',async (req, res) => {
+router.post('/register',async (req, res) => {
     //console.log("Register Route accessed");
 
     try {
@@ -49,7 +49,7 @@ router.post('/mnnitchessclub/register',async (req, res) => {
 });
 
 
-router.post("/mnnitchessclub/login", async(req,res) => {
+router.post("/login", async(req,res) => {
     //console.log("login Route accessed");
 
     //Discrepancies
@@ -74,7 +74,7 @@ router.post("/mnnitchessclub/login", async(req,res) => {
     res.json({ token });
 });
 
-router.post("/mnnitchessclub/home", isAuthenticated, async (req, res) => {
+router.post("/home", isAuthenticated, async (req, res) => {
     try {
       const userId = req.user.userId;
   
