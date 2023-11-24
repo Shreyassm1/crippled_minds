@@ -1,0 +1,60 @@
+.media iframe{
+    width: 100%;
+    height: 50vh;
+}
+.article{
+    transition: max-height 0.3s ease-out;
+    max-height: 50px;
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+}
+.feedcard{
+    width: 40vw;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px 10px 10px 10vw;
+    background-color: white;
+    border-radius: 5px;
+}
+.expanded{
+    height: auto;
+}
+.info{
+    display: flex;
+}
+.info i{
+    font-size: 35px;
+    padding-right: 10px;
+}
+.impressions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.impressions i{
+    font-size: 25px;
+
+}
+.impressions i:hover{
+    color: gray;
+}
+.impressions .likes i.clicked{
+    color: blue;
+}
+button {
+    border: none;
+    background-color: white;
+    color: rgb(166, 165, 165);
+}
+
+
+
+
+
+
+.uplaod{
+    display: flex;
+    width: 45vw;
+    height: 30vh;
+    background-color: white;
+}

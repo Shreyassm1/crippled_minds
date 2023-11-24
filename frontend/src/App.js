@@ -1,20 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import RegisterPage from './components/RegisterPage';
-import HomePage from './components/HomePage';
-import LoginPage from './components/LoginPage';
-import isAuthenticated from '../../server/middleware/isAuthenticated';
+import logo from './logo.svg';
+import './App.css';
+
+
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
+// import Topbar from "./components/Home/Topbar";
+import Login from "./pages/Login";
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        {/* Other routes */}
-      </Routes>
-    </Router>
-  );
+    <>
+      {/* <Header/>
+      <Topbar/>
+      <Footer/> */}
+      <Login />
+      </>
+  );     
+  
 }
 
 export default App;

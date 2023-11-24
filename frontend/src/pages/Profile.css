@@ -1,0 +1,108 @@
+/* ProfilePage.css */
+
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0;
+  }
+  
+  .profile-section {
+    margin-top: 20px;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-section li {
+    margin-bottom: 8px;
+  }
+
+  .profile-container {
+    max-width: 600px;
+    margin: 20px auto 0; 
+    border: 3px solid #ddd; 
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0;
+    border: 3px solid #fff; /* Border around the profile photo */
+  }
+  
+  .profile-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border around each profile section */
+    border-radius: 5px;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-section li {
+    margin-bottom: 8px;
+  }
+
+
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0;
+    border: 3px solid #fff; /* Border around the profile photo */
+  }
+  
+  .profile-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border around each profile section */
+    border-radius: 5px;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-section li {
+    margin-bottom: 8px;
+  }
+    
